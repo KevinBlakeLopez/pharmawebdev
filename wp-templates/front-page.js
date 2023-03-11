@@ -34,7 +34,7 @@ export default function Component() {
           <Hero title={"Pharma Web Dev!"} />
           <div className="text-center">
             <p>Your medical web dev lizard wizards!</p>
-            <code>wp-templates/front-page.js</code>
+            <code>We got the secret sauce to make your website hot.</code>
           </div>
         </Container>
       </Main>
