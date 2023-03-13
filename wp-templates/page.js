@@ -12,7 +12,7 @@ import {
   FeaturedImage,
   SEO,
 } from "../components";
-import Contact from "../components/Contact.js";
+import Contact from "../components/contact.js";
 export default function Component(props) {
   // Loading state for previews
   if (props.loading) {
