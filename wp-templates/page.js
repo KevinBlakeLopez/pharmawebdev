@@ -39,10 +39,12 @@ export default function Component(props) {
       />
       <Main>
         <>
-          <EntryHeader title={title} image={featuredImage?.node} />
-
           <Container>
-            {title === "Contact Us" ? <Contact /> : <></>}
+            <EntryHeader title={title} image={featuredImage?.node} />
+            <section className="">
+              {title === "Contact Us" ? <Contact /> : <></>}
+            </section>
+
             <ContentWrapper content={content} />
           </Container>
         </>

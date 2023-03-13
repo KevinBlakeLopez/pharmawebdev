@@ -190,11 +190,13 @@ export default function Contact() {
         </section>
       </div>
       {typeof window !== "undefined" && (
-        <PopupButton
-          url="https://calendly.com/cartersteinhoff"
-          rootElement={document.getElementById("__next")}
-          text="Click here to schedule!"
-        />
+        <span className="bg-blue-500 text-white text-xl px-4 py-2">
+          <PopupButton
+            url="https://calendly.com/cartersteinhoff"
+            rootElement={document.getElementById("__next")}
+            text="Click here to schedule!"
+          />
+        </span>
       )}
     </>
   );
