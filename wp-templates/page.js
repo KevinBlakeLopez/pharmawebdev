@@ -40,8 +40,9 @@ export default function Component(props) {
       <Main>
         <>
           <EntryHeader title={title} image={featuredImage?.node} />
-          {title === "Contact Us" ? <Contact /> : <></>}
+
           <Container>
+            {title === "Contact Us" ? <Contact /> : <></>}
             <ContentWrapper content={content} />
           </Container>
         </>

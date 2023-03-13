@@ -81,7 +81,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="lg:flex md:gap-12 justify-between md:mt-12">
+      <div className="mx-auto lg:flex md:gap-12 justify-between md:mt-12">
         <section className="md:w-[600px]">
           {formSubmitted ? (
             <div>
