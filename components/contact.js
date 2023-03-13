@@ -83,7 +83,7 @@ export default function Contact() {
     <>
       <div className="lg:flex md:gap-12 justify-between md:mt-12">
         <section className="md:w-[600px]">
-          {formSubbmited ? (
+          {formSubmitted ? (
             <div>
               <p className="text-xl">Thanks for your message!</p>
             </div>
