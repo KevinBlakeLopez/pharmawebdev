@@ -63,7 +63,7 @@ export default function Contact() {
       formSubmission["_honeypot"] = formData["_honeypot"];
     }
 
-    fetch(`https://submit-form.com/`, {
+    fetch("https://submit-form.com/hbCocYHR", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
