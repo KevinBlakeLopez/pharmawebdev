@@ -21,7 +21,7 @@ export default function Header({
     <header className="relative z-[2]">
       <SkipNavigationLink />
       <Container>
-        <div className="flex justify-between flex-wrap py-12 gap-4">
+        <div className="flex justify-between flex-wrap py-8 gap-4">
           <div className="font-bold text-2xl flex flex-col justify-center">
             <Link href="/">
               <a className={cx("title")}>{title}</a>

@@ -177,7 +177,7 @@ export default function Contact() {
                   id="edit-actions"
                 >
                   <input
-                    className="text-lg py-2 pl-7 text-white"
+                    className="text-lg py-2 px-7 text-white bg-blue-500"
                     type="submit"
                     id="edit-actions-submit"
                     name="submit"
